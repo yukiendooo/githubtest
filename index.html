@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,11 +17,13 @@
     <link rel="icon" href="images/meta/icon.png">
     <link rel="shortcut icon" href="images/meta/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
     <!-- hero-image -->
@@ -36,10 +39,16 @@
             <h1 class="site-title">Your Name Portfolio Web</h1>
             <nav class="navigation">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#about">About</a></li>
-                    <li class="nav-item"><a href="#works">Works</a></li>
-                    <li class="nav-item"><a href="#contact">Contact</a></li>
-                </ul>   
+                    <li class="nav-item">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#works">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -51,14 +60,14 @@
         <section id="about" class="profile">
             <div class="profile-wrapper">
                 <h2 class="text-center profile__title">About Me</h2>
-                <div class="text-center profile__eyecatch"><img src="images/about/profile.png" alt="コスゲタツヤのスタンプ画像"></div>
+                <div class="text-center profile__eyecatch">
+                    <img src="images/about/profile.png" alt="コスゲタツヤのスタンプ画像">
+                </div>
                 <h3 class="text-center profile__name">Your Name is</h3>
-                <p class="profile__text">Webサイトなどの制作業を中心に、Webデザインなどを教えるスクールで講師業を
-                行うなど、活動分野は多岐に渡る。最近では、Webメディアへの記事執筆・寄稿など
-                ライターとしての活動も行っている。趣味は旅と写真・ゲストハウス巡りで、仕事や
-                プライベートを問わず日本全国様々な場所に足を運び、分野を越えた交流を楽しん
-                でいる。</p> 
-            </div>     
+                <p class="profile__text">Webサイトなどの制作業を中心に、Webデザインなどを教えるスクールで講師業を 行うなど、活動分野は多岐に渡る。最近では、Webメディアへの記事執筆・寄稿など ライターとしての活動も行っている。趣味は旅と写真・ゲストハウス巡りで、仕事や
+                    プライベートを問わず日本全国様々な場所に足を運び、分野を越えた交流を楽しん でいる。
+                </p>
+            </div>
         </section>
         <!-- //about -->
 
@@ -76,7 +85,7 @@
                             <p>2018/02/06</p>
                         </div>
                     </li>
-                    
+
                     <li class="works__item">
                         <div class="works__eyecatch">
                             <img src="images/works/work2.png" alt="マッサージ院のWebサイトのキャプチャ画像">
@@ -86,7 +95,7 @@
                             <p>2018/01/01</p>
                         </div>
                     </li>
-                    
+
                     <li class="works__item">
                         <div class="works__eyecatch">
                             <img src="images/works/work3.png" alt="自作ブログのキャプチャ画像">
@@ -110,13 +119,21 @@
                 <form action="#" method="POST" class="form">
                     <dl class="form-inner">
                         <dt class="form-title">お名前</dt>
-                        <dd class="form-item"><input type="text" name="name" id="name" class="form-parts"></dd>
+                        <dd class="form-item">
+                            <input type="text" name="name" id="name" class="form-parts">
+                        </dd>
                         <dt class="form-title">メールアドレス</dt>
-                        <dd class="form-item"><input type="email" name="email" id="email" class="form-parts"></dd>
+                        <dd class="form-item">
+                            <input type="email" name="email" id="email" class="form-parts">
+                        </dd>
                         <dt class="form-title radio-check">お問い合わせ内容</dt>
-                        <dd class="form-item"><label for="making" class="form-label"><input type="radio" name="kind" id="making" value="制作のご依頼">制作のご依頼</label>
-                            <label for="event" class="form-label"><input type="radio" name="kind" id="event" value="イベント出演依頼">イベント出演依頼</label>
-                            <label for="other" class="form-label"><input type="radio" name="kind" id="other" value="その他">その他</label>
+                        <dd class="form-item">
+                            <label for="making" class="form-label">
+                                <input type="radio" name="kind" id="making" value="制作のご依頼">制作のご依頼</label>
+                            <label for="event" class="form-label">
+                                <input type="radio" name="kind" id="event" value="イベント出演依頼">イベント出演依頼</label>
+                            <label for="other" class="form-label">
+                                <input type="radio" name="kind" id="other" value="その他">その他</label>
                         </dd>
                         <dt class="form-title">お問い合わせ詳細</dt>
                         <dd class="form-item">
@@ -124,24 +141,26 @@
                         </dd>
                     </dl>
                     <input type="submit" value="送信" class="btn btn-submit">
-                </form> 
+                </form>
             </div>
         </section>
         <!-- //contact -->
     </main>
-    
+
     <!-- footer -->
     <footer class="footer text-center">
         <div class="wrapper">
-            <a href="#" class="btn-pagetop"><span class="fa fa-angle-up icon-up"></span></a>
+            <a href="#" class="btn-pagetop">
+                <span class="fa fa-angle-up icon-up"></span>
+            </a>
             <small class="copyrights">copyrights 2017-2018 Your Name All Rights Reserved.</small>
         </div>
     </footer>
     <!-- //footer -->
 
-<script>
-
-
-</script>
+    <script>
+        alert('test');
+    </script>
 </body>
+
 </html>
